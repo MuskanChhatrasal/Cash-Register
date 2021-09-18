@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(184, 184, 184);
+}
+
+input {
+  width: 90vw;
+  height: 3vh;
+}
+table {
+  border: 1px solid;
+}
+#check-btn {
+  margin-top: 10px;
+}
