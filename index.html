@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+     crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="title">Cash Register Manager</h1>
+      <h4>
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </h4>
+
+      <div>
+        <h2 class="label">Bill Amount :</h2>
+        <input id="bill-amount" type="number" />
+        <button id="next-button">Next</button>
+      </div>
+
+      <br />
+
+    <h2 class="cash-given-input">
+      <div class="label">Cash Given :</div>
+      <input id="cash-given" type="number" />
+      <button id="check-button">Check</button>
+    </h2>
+      <div id="error-message"></div>
+
+      <div class="returnChange">
+        <div class="label">Return Change</div>
+        <div id="output">
+          <table>
+            <tr>
+              <th>No of Notes</th>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+              <th>Notes</th>
+              <td>2000</td>
+              <td>500</td>
+              <td>100</td>
+              <td>20</td>
+              <td>10</td>
+              <td>5</td>
+              <td>1</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+      <section class="footer">
+        <p>Muskan Chhatrasal</p>
+        <ul>
+          <li><a href="https://github.com/MuskanChhatrasal" alt="#"><i class="fab fa-github">&nbsp;Github</i></a></li>
+          <li><a href="https://www.linkedin.com/in/muskan-chhatrasal/" alt="#"><i class="fab fa-linkedin">&nbsp;LinkedIn</i></a>
+          </li>
+          <li><a href="https://twitter.com/MuskanChhatras1" alt="#"><i class="fab fa-twitter">&nbsp;Twitter</i></a>
+          </li>
+        </ul>
+      </section>
+    <script src="./app.js"></script>
+  </body>
+
+</html>
